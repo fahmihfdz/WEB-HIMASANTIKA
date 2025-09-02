@@ -23,7 +23,7 @@
       <div class="link">
         <ul class="navbar">
           <li class="nav_item">
-            <a href="#home" class="nav_link active_link">Home</a>
+            <a href="#home" class="nav_link">Home</a>
           </li>
           <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
           <li class="nav_item">
@@ -64,13 +64,16 @@
           </div>
 
           <div class="main-about">
-            <p >
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia tempore obcaecati modi unde ab est, corrupti voluptas maiores exercitationem quas, quia inventore temporibus illo deserunt assumenda quis expedita accusamus iure.
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Mollitia tempore obcaecati modi unde ab est,
+              corrupti voluptas maiores exercitationem quas, quia inventore
+              temporibus illo deserunt assumenda quis expedita accusamus iure.
             </p>
           </div>
         </div>
@@ -79,65 +82,86 @@
       <!--== Divisi ==-->
       <section class="division" id="division">
         <h2>DIVISI</h2>
-        <div class="divisions">
-          <article>
-            <img src="assets/icons/bph icon.png" alt="Icon BPH" />
-            <h3>BPH</h3>
-            <p>Badan Pengurus Harian</p>
-          </article>
-          <article>
-            <img src="assets/icons/advok icon.png" alt="Icon Advokasi" />
-            <h3>Lembaga Advokasi</h3>
-          </article>
-          <article>
-            <img src="assets/icons/minbat icon.png" alt="Icon Minat & Bakat" />
-            <h3>Lembaga Minat & Bakat</h3>
-          </article>
-          <article>
-            <img src="assets/icons/dpo icon.png" alt="Icon DPO" />
-            <h3>Departemen Pengawas Organisasi</h3>
-            <p>DPO</p>
-          </article>
-          <article>
-            <img src="assets/icons/kader icon.png" alt="Icon Kaderisasi" />
-            <h3>Departemen Kaderisasi</h3>
-          </article>
-          <article>
-            <img src="assets/icons/dikmas icon.png" alt="Icon Dikmas" />
-            <h3>Departemen Pendidikan Mahasiswa</h3>
-            <p>DIKMAS</p>
-          </article>
-          <article>
-            <img src="assets/icons/bismit icon.png" alt="Icon Bismit" />
-            <h3>Departemen Bisnis & Kemitraan</h3>
-            <p>BISMIT</p>
-          </article>
-          <article>
-            <img src="assets/icons/dokom icon.png" alt="Icon DOKOMINFO" />
-            <h3>Departemen Dokumentasi, Komunikasi & Informasi</h3>
-            <p>DOKOMINFO</p>
-          </article>
+        <div class="division-slider">
+          <button class="slider-btn left" onclick="scrollDivisions(-1)">
+            &#10094;
+          </button>
+
+          <div class="divisions" id="divisions">
+            <article>
+              <img src="assets/icons/bph icon.png" alt="Icon BPH" />
+              <h3>Badan Pengurus Harian</h3>
+              <p>(BPH)</p>
+            </article>
+            <article>
+              <img src="assets/icons/advok icon.png" alt="Icon Advokasi" />
+              <h3>Lembaga Advokasi</h3>
+            </article>
+            <article>
+              <img
+                src="assets/icons/minbat icon.png"
+                alt="Icon Minat & Bakat"
+              />
+              <h3>Lembaga Minat & Bakat</h3>
+            </article>
+            <article>
+              <img src="assets/icons/dpo icon.png" alt="Icon DPO" />
+              <h3>Departemen Pengawas Organisasi</h3>
+              <p>(DPO)</p>
+            </article>
+            <article>
+              <img src="assets/icons/kader icon.png" alt="Icon Kaderisasi" />
+              <h3>Departemen Kaderisasi</h3>
+            </article>
+            <article>
+              <img src="assets/icons/dikmas icon.png" alt="Icon Dikmas" />
+              <h3>Departemen Pendidikan Mahasiswa</h3>
+              <p>(DIKMAS)</p>
+            </article>
+            <article>
+              <img src="assets/icons/bismit icon.png" alt="Icon Bismit" />
+              <h3>Departemen Bisnis & Kemitraan</h3>
+              <p>(BISMIT)</p>
+            </article>
+            <article>
+              <img src="assets/icons/hubek icon.png" alt="Icon Hubek" />
+              <h3>Departemen Hubungan Eksternal & Sosial</h3>
+              <p>(HUBEKSOS)</p>
+            </article>
+            <article>
+              <img src="assets/icons/dokom icon.png" alt="Icon DOKOMINFO" />
+              <h3>Departemen Dokumentasi, Komunikasi & Informasi</h3>
+              <p>(DOKOMINFO)</p>
+            </article>
+          </div>
+          <button class="slider-btn right" onclick="scrollDivisions(1)">
+            &#10095;
+          </button>
         </div>
       </section>
 
       <!--== Contact ==-->
-      <section class="contact" id="contact">
-        <h2>Contact Us</h2>
-        <address>
-          <p class="contact-info">
-            <img src="assets/icons/ig icon.png" alt="Instagram" />
-            Himasantika_umc
-          </p>
-          <p class="contact-info">
-            <img src="assets/icons/TikTok icon.png" alt="TikTok" /> HIMASANTIKA
-            UMC
-          </p>
-          <p class="contact-info">
-            <img src="assets/icons/maps icon.png" alt="Alamat" /> Jl.
-            Fatahillah, Watubelah, Kec. Sumber, Kabupaten Cirebon, Jawa Barat
-            45611
-          </p>
-        </address>
+      <section id="contact">
+        <div class="contact-container">
+          <div class="title-contact">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="contact-info">
+            <div class="item">
+              <img src="assets/icons/ig icon.png" alt="Instagram" />
+              <a href="https://www.instagram.com/himasantika_umc/" target="_blank">Himasantika_umc</a>
+            </div>
+            <div class="item">
+              <img src="assets/icons/TikTok icon.png" alt="TikTok" />
+              <a href="https://www.tiktok.com/@himasantika_umc" target="_blank">HIMASANTIKA UMC</a>
+            </div>
+            <div class="item">
+              <img src="assets/icons/maps icon.png" alt="Location" />
+              <a href="https://shorturl.at/EwrpZ" target="_blank" class="teks-address">Jl. Fatahillah, Watubelah,<br> Kec. Sumber, Kabupaten Cirebon, Jawa
+                Barat 45611</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!--== Kritik & Saran ==-->
