@@ -114,3 +114,34 @@ header {
   font-size: 2.5rem;
   letter-spacing: 5px;
 }
+
+/* ===== ABOUT SECTION ===== */
+.about {
+    background-color: #fff; /* atau var(--light-color) */
+    padding: 4rem 0;
+}
+
+.about_content {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* kiri kecil, kanan besar */
+    gap: 2rem;
+    align-items: center; /* bikin vertikal tengah */
+}
+
+.about_title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0a0a6b; /* warna biru */
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;   /* vertikal tengah */
+    height: 100%;          /* supaya penuh tinggi kolom */
+}
+
+
+.about_text p {
+    margin-bottom: 1.2rem;
+    text-align: justify;
+    line-height: 1.8;
+    color: #333;
+}
