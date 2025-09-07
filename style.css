@@ -115,27 +115,27 @@ header {
   letter-spacing: 5px;
 }
 
-/* ===== ABOUT SECTION ===== */
+/* ABOUT SECTION  */
 .about {
-    background-color: #fff; /* atau var(--light-color) */
+    background-color: #fff; 
     padding: 4rem 0;
 }
 
 .about_content {
     display: grid;
-    grid-template-columns: 1fr 2fr; /* kiri kecil, kanan besar */
+    grid-template-columns: 1fr 2fr; 
     gap: 2rem;
-    align-items: center; /* bikin vertikal tengah */
+    align-items: center; 
 }
 
 .about_title {
     font-size: 2rem;
     font-weight: 800;
-    color: #0a0a6b; /* warna biru */
+    color: #0a0a6b; 
     text-transform: uppercase;
     display: flex;
-    align-items: center;   /* vertikal tengah */
-    height: 100%;          /* supaya penuh tinggi kolom */
+    align-items: center;   
+    height: 100%;         
 }
 
 
