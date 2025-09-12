@@ -327,6 +327,7 @@ nav {
   flex-shrink: 0;
   width: 40px;
   height: 40px;
+  object-fit: contain;
 }
 
 .contact-info .item a {
@@ -476,7 +477,12 @@ footer {
 
   .navbar .nav_item .btn_login {
     display: block;
-  } 
+  }
+
+  .navbar a.active-link {
+    color: #3333aa;
+    font-weight: 700;
+  }
 
   /* HERO */
   .hero {
